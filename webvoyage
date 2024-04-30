@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="projet.css">
+    <title>EXPRESS GV MVONDOCGNIE</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1> GENERAL <span class="name">VOYAGE</span></h1>
+           </div> 
+    <div class="menu">
+        <ul>
+          <li><a href="#"><span class="home1"> HOME </span> </a></li>  
+          <li><a href="about.html">ABOUT  </a></li> 
+          <li><a href="contact.html">CONTACT  </a></li>  
+        </ul>
+       </div>
+       </header>
+       <nav>
+       <div class="image">
+        <figure>
+            <img src="img/mvan.jpg" height="600px" width="1349px">
+        </figure>
+       </div>
+        <div class="titre">
+            <h1><span class="titre1">Let's discover our<br/>country</span></h1>
+        </div>
+    <div class="service">
+        <h1><span class="service1">NOS SERVICES</span> </h1>
+    </div>
+
+     
+    <div class="transport">
+        <h1><span class="t1">TRANSPORT DE PASSAGERS</span></h1>
+
+    </div>
+
+    <div class="p1">
+        <p>
+            Nous mettons à votre disposition une flotte<br/>
+            importante de bus et un personnel navigant <br/>
+            professionnel pour assurer chaque jour et 24/<br/>
+            24 votre transport sur le triangle national.
+    </div>
+    <div class="imagetransport">
+        <img src="img/bus.png" height="20%" width="20%">
+    </div>
+
+    <div class="messagerie">
+        <h1><span class="m1">MESSAGERIE</span></h1>
+    </div>
+        <div class="p2">
+            <p>
+                L'expedition sécurisée de vos colis à<br/>
+                moindre prix sur le triangle national. 
+            </p>
+        </div>
+    <div class="imagemessage">
+        <img src="img/message.png" height="20%" width="20%">
+    </div>
+
+
+    <div class="bus">
+        <h1><span class="b1">LOCATION DE BUS</span></h1>
+    </div>    
+
+    <div class="p3">
+        <p>
+            Pour vos sorties en groupe,nous mettons<br/>
+            nos véhicules à votre disposition à des prix<br/>
+            défiant toute concurrence.
+        </p>
+    </div>
+    <div class="imagebus">
+        <img src="img/bus.png" height="20%" width="20%">
+    </div>
+
+
+    <div class="chambre">
+        <h1><span class="c1">CHAMBRES DE REPOS</span></h1>
+    </div>
+
+    <div class="p4">
+        <p>
+            Etes-vous arrivé à destination plus tard que<br/>
+            prévu? pas de souci ,vous avez la possibilité<br/>
+            de vous reposer dans nos chambres équipées<br/>
+            pour votre confort.
+        </p>
+    </div>
+    <div class="imagechambre">
+        <img src="img/lit.jpg" height="20%" width="20%">
+    </div>
+
+
+
+
+    <div class="livraison">
+        <h1><span class="l1">LIVRAISON A DOMICILE</span></h1>
+    </div>
+    <div class="p5">
+        <p> 
+          Votre service de livraison de colis et <br/>
+          courriers confidentiels,fiable et dispo<br/>
+          nible dans nos agences.  
+        
+        </p>
+    </div>
+   
+    <div class="imagelivraison">
+        <img src="img/colis.jpg" height="20%" width="20%">
+    </div>
+
+</nav>
+
+
+    <footer>
+        <div class="general">
+          <h3>GENERAL <span class="g1">VOYAGE</span>  </h3>
+          </div>
+          <div class="icon">
+           <img src="img/youtube.png" height="60%" width="60%">
+        </div>
+        <div class="icon1">
+           <img src="img/facebook.png" height="12%" width="12%">
+        </div>
+        <div class="icon2">
+            <img src="img/twitter.png" height="12%" width="12%">
+         </div>
+
+         <div class="icon3">
+            <img src="img/instagram.png" height="12%" width="12%">
+         </div>
+          
+         
+            <div class="mvondo">
+                <p>copywright designed by <span class="industry">MVONDOCGNIE</span></p>
+            </div>
+
+        </div>
+      
+    </footer>
+
+</body>
+</html>
+*{
+    margin: 0;
+    justify-content: center;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+}
+header{
+    
+}
+.logo{
+    font-family:  'Arial Narrow';
+    position: absolute;
+    left: 2%;
+    top: 3%;
+}
+.name{
+    color: blue;
+}
+.menu{
+    width: 400px;
+    height: 70px;
+    text-decoration: none;
+}
+ul{
+    align-items: center;
+    float: left;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    bottom: 80%;
+    left: 20%;
+}
+ul li{
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 2em;
+    padding: 5px;
+    border-color:black;
+    list-style: none;
+    margin-left: 64px;
+    font-size: 20px;
+    margin-top: 27%;
+}
+.home1{
+    color: blue;
+}
+a:hover{
+    color: blue;
+}
+
+.image{
+    position: absolute;
+    top: 25%;
+    left: 0%;
+}
+.titre{
+    position: absolute;
+    top: 60%;
+    left: 18%;
+    font-size: 305%;
+}
+.titre1{
+    color: white;
+}
+.service{
+    position: absolute;
+    top: 125%;
+    left: 38%;
+    font-size: 120%;
+   
+}
+.service1{
+    color: blue;
+}
+.transport{
+    position: absolute;
+    top: 135%;
+    left: 33%;
+}
+.t1{
+    color: black;
+}
+.p1{
+    position: absolute;
+    top: 140%;
+    left: 33%;
+    font-size: 120%;
+}
+.messagerie{
+    position: absolute;
+    top: 160%;
+    left: 33%;
+}
+.m1{
+    color: black;
+}
+.p2{
+    position: absolute;
+    top: 165%;
+    left: 33%;
+    font-size: 120%;
+}
+.bus{
+    position: absolute;
+    top: 180%;
+    left: 33%;
+}
+.b1{
+    color: black;
+}
+.p3{
+    position: absolute;
+    top: 185%;
+    left: 33%;
+    font-size: 120%;
+}
+.chambre{
+    position: absolute;
+    top: 200%;
+    left: 33%;
+}
+.c1{
+    color: black;
+}
+.p4{
+    position: absolute;
+    top: 205%;
+    left: 33%;
+    font-size: 120%;
+}
+.livraison{
+    position: absolute;
+    top: 220%;
+    left: 33%;
+}
+.l1{
+    color: black;
+}
+.p5{
+    position: absolute;
+    top: 225%;
+    left: 33%;
+    font-size: 120%;
+}
+.imagetransport{
+    position: absolute;
+    top: 138%;
+    left: 65%;   
+}
+.imagemessage{
+    position: absolute;
+    top: 160%;
+    left: 65%;
+}
+.imagebus{
+    position: absolute;
+    top: 182%;
+    left: 65%;
+}
+.imagechambre{
+    position: absolute;
+    top: 204%;
+    left: 65%;
+}
+.imagelivraison{
+    position: absolute;
+    top: 226%;
+    left: 65%;
+}
+
+.pft{
+    color:black;
+    
+}
+footer{
+    background: gainsboro;
+    height: 200px;
+    width: 1349px;
+    font-family:'Arial Narrow';
+    padding-top: 40px;
+    color: white;
+    position: absolute;
+    top: 240%;
+}
+.icon{
+    position: absolute;
+    left: 39%;
+    top: 39%;
+}
+.icon1{
+    position:absolute;
+    top: 42%;
+    left: 46%;
+}
+.icon2{
+    position: absolute;
+    top: 42%;
+    left: 52%;
+}
+.icon3{
+    position:absolute;
+    top: 42%;
+    left: 58%;
+}
+.mvondo{
+    position: absolute;
+    top: 75%;
+    left: 39%;
+    font-size: 135%;
+}
+.general{
+    font-family:'Arial Narrow';
+    font-size: 130%;
+    position: absolute;
+    left: 2%;
+}
+.g1{
+    color: blue;
+}
+*{
+    margin: 0;
+    justify-content: center;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.849);
+}
+header{
+    
+}
+.logo{
+    font-family:  'Arial Narrow';
+    position: absolute;
+    left: 2%;
+    top: 3%;
+}
+.name{
+    color: blue;
+}
+.menu{
+    width: 400px;
+    height: 70px;
+    text-decoration: none;
+}
+ul{
+    align-items: center;
+    float: left;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    bottom: 80%;
+    left: 20%;
+}
+ul li{
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 2em;
+    padding: 5px;
+    border-color:black;
+    list-style: none;
+    margin-left: 64px;
+    font-size: 20px;
+    margin-top: 27%;
+}
+.about1{
+    color: blue;
+}
+a:hover{
+    color: blue;
+}
+.image{
+    position: absolute;
+    top: 25%;
+    left: 0%;
+}
+.titre{
+    position: absolute;
+    top: 60%;
+    left: 18%;
+    font-size: 305%;
+}
+.titre1{
+    color: white;
+}
+.about{
+    position: absolute;
+    top: 125%;
+    left: 38%;
+    font-size: 120%;
+}
+.a1{
+    color: blue;
+}
+.trip{
+    position: absolute;
+    top: 132%;
+    left: 36%;
+}
+.t1{
+    color: black;
+}
+.p1{
+    position: absolute;
+    top: 139%;
+    left: 3%;
+    font-size: 120%;
+}
+.titrebus{
+    position: absolute;
+    top: 165%;
+    left: 3%;
+    
+}
+.titrebus1{
+    color: black;
+    
+}
+.imagebus{
+    position: absolute;
+    top: 172%;
+    
+    left: 3%;
+}
+.imagebus1{
+    position: absolute;
+    top: 172%;
+    left: 50%;
+
+    
+}
+.imagebus2{
+    position: absolute;
+    top: 245%;
+    left: 3%;
+}
+.imagechambre1{
+    position: absolute;
+    top: 245%;
+    left: 50%;
+}
+.p2{
+    position: absolute;
+    top: 315%;
+    left: 3%;
+    font-size: 120%;
+}
+footer{
+    background: gainsboro;
+    height: 200px;
+    width: 1349px;
+    font-family:'Arial Narrow';
+    padding-top: 40px;
+    color: white;
+    position: absolute;
+    top: 335%;
+}
+.icon{
+    position: absolute;
+    left: 39%;
+    top: 39%;
+}
+.icon1{
+    position:absolute;
+    top: 42%;
+    left: 46%;
+}
+.icon2{
+    position: absolute;
+    top: 42%;
+    left: 52%;
+}
+.icon3{
+    position:absolute;
+    top: 42%;
+    left: 58%;
+}
+.mvondo{
+    position: absolute;
+    top: 75%;
+    left: 39%;
+    font-size: 135%;
+}
+.general{
+    font-family:'Arial Narrow';
+    font-size: 130%;
+    position: absolute;
+    left: 2%;
+}
+.g1{
+    color: blue;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about.css">
+    <title> EXPRESS GV MVONDOCGNIE </title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1> GENERAL <span class="name">VOYAGE</span></h1>
+           </div> 
+    <div class="menu">
+        <ul>
+          <li><a href= "index.html"> HOME </a></li>  
+          <li><a href= "#"><span class="about1"> ABOUT </span></a></li>
+          <li><a href="contact.html"> CONTACT </a></li>  
+        </ul>
+       </div>
+       </header>
+       <nav>
+    <div class="image">
+        <figure>
+            <img src="img/mvan.jpg" height="600px" width="1349px">
+        </figure>
+    </div>
+    <div class="titre">
+            <h1><span class="titre1">Let's discover our<br/>country</span></h1>
+    </div>
+
+    <div class="about">
+        <h1><span class="a1">ABOUT US</span></h1>
+    </div>
+    <div class="trip">
+        <h2><span class="t1">le plaisir de voyager</span></h2>
+    </div>
+   
+    <div class="p1">
+        Depuis plus de 30 ans, l'entreprise citoyenne Général Express Voyages est leader dans le<br/> 
+        transport interurbain au cameroun.Elle conjugue confort et sécurité pour offrir à son<br/>  
+        aimable clientèle un service de haute qualité 24h/24.Organisée autour d'un vaste<br/> 
+        réseau de 15 terminaux répartis sur le territoire national,Général Express Voyages<br/> 
+        poursuit de façon assidue sa politique de proximité avec sa grande clientèle.
+    </div>
+
+    <div class="titrebus">
+        <h3><span class="titrebus1">DES BUS CONFORTABLES POUR NOS CLIENTS ET DES HEBERGEMENTS SECURISES</span></h3>
+    </div>
+    <div class="imagebus">
+        <img src="img/bus3.jpg" height="400px" width="600px">
+    </div>
+
+    <div class="imagebus1">
+        <img src="img/bus1.jpg" height="400px" width="600px">
+    </div>
+
+    <div class="imagebus2">
+        <img src="img/bus2.jpg" height="400px" width="600px">
+    </div>
+    <div class="imagechambre1">
+        <img src="img/chambre1.jpg" height="400px" width="600px">
+    </div>
+
+    <div class="p2">
+        <p>
+         L'entreprise Général Express Voyages se démarque par sa large flotte automible,ses véhicules<br/>
+         de haute technologie,ses parkings vastes et sécurisées,son service de maintenance qualifié,<br/>
+         ses chambres de repos confortables,son personnel accueillant et hautement professionnel <br/>
+         un plaisir pour le client qui pourrait se reposer ou meme se distraire pendant tout le trajet.
+         
+         
+        </p>
+    </div>
+
+    </nav>
+    <footer>
+        <div class="general">
+          <h3>GENERAL <span class="g1">VOYAGE</span>  </h3>
+          </div>
+          <div class="icon">
+           <img src="img/youtube.png" height="60%" width="60%">
+        </div>
+        <div class="icon1">
+           <img src="img/facebook.png" height="12%" width="12%">
+        </div>
+        <div class="icon2">
+            <img src="img/twitter.png" height="12%" width="12%">
+         </div>
+
+         <div class="icon3">
+            <img src="img/instagram.png" height="12%" width="12%">
+         </div>
+          
+         
+            <div class="mvondo">
+                <p>copywright designed by <span class="industry">MVONDOCGNIE</span></p>
+            </div>
+
+        </div>
+      
+    </footer>
+</body>
+</html>
+*{
+    margin: 0;
+    justify-content: center;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.925);
+}
+.logo{
+        font-family:  'Arial Narrow';
+        position: absolute;
+        left: 2%;
+        top: 3%;
+    }
+.name{
+    color:blue;
+
+}
+.menu{
+    width: 400px;
+    height: 70px;
+    text-decoration: none;
+   
+}
+ul{
+    
+    align-items: center;
+    float: left;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    bottom: 80%;
+    left: 20%;
+}
+ul li{
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 2em;
+    padding: 5px;
+    border-color:black;
+    list-style: none;
+    margin-left: 64px;
+    font-size: 20px;
+    margin-top: 27%;
+}
+.contact1{
+  color: blue;
+}
+
+a:hover{
+   color: blue;
+}
+.image{
+    position: absolute;
+    top: 25%;
+    left: 0%;
+}
+.titre{
+    position: absolute;
+    top: 35%;
+    left: 18%;
+    font-size: 305%;
+}
+.titre1{
+    color: white;
+}
+.titre0{
+    position: absolute;
+    top: 110%;
+    left: 42%;
+}
+    
+
+.h1{
+    position: absolute;
+    top: 125%;
+    left: 26%;
+    color: black;
+}
+.p1{
+    position: absolute;
+    top: 130%;
+    left: 25%;
+}
+.h2{
+    position: absolute;
+    top: 150%;
+    left: 26%;
+
+}
+.p2{
+    position: absolute;
+    top: 155%;
+    left: 25%;
+}
+.h3{
+    position: absolute;
+    top: 175%;
+    left: 26%;
+}
+.p3{
+    position: absolute;
+    top: 180%;
+    left: 25%;
+}
+.about{
+    color: blue;
+}
+.name1{
+    padding: 20px;
+    position: absolute;
+    top: 154%;
+    left: 50%;
+}  
+.email{
+    padding: 20px;
+    position: absolute;
+    top: 154%;
+    left: 70%;
+}
+.subject{
+    padding: 25px;
+    padding-left: 21%;
+    position: absolute;
+    top: 170%;
+    left: 50%;
+}
+.appreciation{
+    padding: 60px;
+    padding-left: 19%;
+    position: absolute;
+    top: 188%;
+    left: 50%;
+}
+.btn1{
+    position: absolute;
+    top: 210%;
+    left: 66%;
+    width: 240px;
+    height: 40px;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+
+}
+button{
+    font-size: 100%;
+    cursor: pointer;
+}
+button:hover{
+    background: rgba(0, 0, 255, 0.932);
+    color: gray;
+}
+.m1{
+    color:rgba(0, 0, 0, 0.918);
+}    
+footer{
+    background: gainsboro;
+    height: 200px;
+    width: 1349px;
+    font-family:'Arial Narrow';
+    padding-top: 40px;
+    color: white;
+    position: absolute;
+    top: 228%;
+}
+.icon{
+    position: absolute;
+    left: 39%;
+    top: 39%;
+}
+.icon1{
+    position:absolute;
+    top: 42%;
+    left: 46%;
+}
+.icon2{
+    position: absolute;
+    top: 42%;
+    left: 52%;
+}
+.icon3{
+    position:absolute;
+    top: 42%;
+    left: 58%;
+}
+.mvondo{
+    position: absolute;
+    top: 75%;
+    left: 39%;
+    font-size: 135%;
+}
+.general{
+    font-family:'Arial Narrow';
+    font-size: 130%;
+    position: absolute;
+    left: 2%;
+}
+.g1{
+    color: blue;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title> EXPRESS GV MVONDOCGNIE </title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1> GENERAL <span class="name">VOYAGE</span></h1>
+           </div> 
+    <div class="menu">
+        <ul>
+          <li><a href= "index.html"> HOME</a></li>  
+          <li><a href="about.html"> ABOUT </a></li> 
+          <li><a href= "#"><span class="contact1"> CONTACT </span> </a></li> 
+        </ul>
+    </div>
+    </header>
+       <nav>
+    <div class="image">
+        <figure>
+            <img src="img/mvan.jpg" height="600px" width="1349px">
+        </figure>
+        <div class="titre0">
+            <h1><span class="about">CONTACT US</span> </h1>
+            </div>
+
+    <div class="h1">
+        <h3> MVAN</h3>
+        </div>
+    <div class="p1">
+        <p>
+            (yaounde-douala)<br/>
+            reservation VIP:+237 682 95 87 45<br/>
+            reservation class:+237 698 78 45 63<br/>
+            courrier envoi:+237 657 85 64 69<br/>
+            courrier retrait:+237 678 45 85 16  
+        </p>
+    </div>    
+        <div class="h2">
+            <h3> BIYEM ASSI</h3>
+            </div>
+    <div class="p2">
+
+            <p>
+                (yaounde-ouest)<br/>
+                reservation VIP:+237 697 75 84 45<br/>
+                reservation class:+237 675 98 45 78<br/>
+                courrier envoi:+237 689 77 84 42<br/>
+                courrier retrait:+237 645 12 76 94
+
+            </p>
+    </div>   
+    <div class="h3">
+        <h3> TERMINUS MIMBOMAN</h3>
+        </div>     
+
+    <div class="p3">
+
+        <p>
+            (yaounde-ouest)<br/>
+            reservation VIP:+237 675 75 84 45<br/>
+            reservation class:+237 691 98 45 78<br/>
+            courrier envoi:+237 689 77 84 42<br/>
+            courrier retrait:+237 645 12 76 94
+        </p>
+
+    </div>
+
+    <div class="titre">
+        <h1><span class="titre1">Let's discover our<br/>country</span></h1>
+
+    </div>
+</nav>
+
+    <aside>
+        <form method="post" action="contact.html">
+                <div class="information">
+                <input type="text" class="email" placeholder="Your Email">
+                   <input type="text" class="name1" placeholder="Your Name">
+                    <input type="text" class="subject" placeholder="Subject">
+                     <input type="text" class="appreciation" placeholder="Appreciation">
+                </div>
+            </fieldset>
+         
+        </form>
+       
+        <div class="btn1">
+            <button><span class="m1">Send Message</span></button>
+        </div>
+
+
+       
+    </aside>
+    
+    <footer>
+        <div class="general">
+          <h3>GENERAL <span class="g1">VOYAGE</span>  </h3>
+          </div>
+
+          <div class="icon">
+           <img src="img/youtube.png" height="60%" width="60%">
+           </div>
+
+           <div class="icon1">
+            <img src="img/facebook.png" height="12%" width="12%">
+         </div>
+
+         <div class="icon2">
+             <img src="img/twitter.png" height="12%" width="12%">
+          </div>
+ 
+          <div class="icon3">
+             <img src="img/instagram.png" height="12%" width="12%">
+          </div>
+           
+
+
+
+          </div>
+         
+            <div class="mvondo">
+                <p>copywright designed by <span class="industry">MVONDOCGNIE</span></p>
+            </div>
+
+        </div>
+      
+    </footer>
+
+</body>
+</html>
